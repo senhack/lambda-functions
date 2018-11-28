@@ -36,6 +36,6 @@ def retrieve_data(event, context):
         "headers": {
             "access-control-allow-origin": "*"
         },
-        "body": json.dumps(results)
+        "body": json.dumps(results['Items'])
     }
 
